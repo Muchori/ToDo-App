@@ -1,18 +1,18 @@
 <template>
-	<div class="absolute item-center mt-5 w-full md:w-1/2">
-		<form action="#" class="font-normal">
-				
-					<input
-						class="w-full h-16 item-center border dark:border-primary-dark border-opacity-50 text-primary-dark dark:text-secondary-light bg-ternary-light dark:bg-ternary-dark rounded-md shadow-sm text-md"
-						id="name"
-						name="name"
-						type="text"
-						required=""
-						placeholder="Create a new todo..."
-						aria-label="Name"
-					/>
-							
+	<div class="absolute flex flex-row w-full justify-center items-center mt-28 ml-80">
+		<div class="relative w-full justify-center items-center">
+			<form action="#" class="font-normal">				
+				<input
+					class="w-full p-3 rounded-md shadow-lg text-sm"
+					id="name"
+					name="name"
+					type="text"
+					required=""
+					placeholder="Create a new todo..."
+					aria-label="Name"
+				/>							
 			</form>
+	</div>
 	</div>
 </template>
 
