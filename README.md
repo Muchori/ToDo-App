@@ -1,4 +1,4 @@
-# todo-app
+# Todo-app-vuejs
 
 ## Project setup
 ```
